@@ -1,0 +1,996 @@
+"id","ehr","method","request_body","request_url","response_body","response_status","timestamp"
+18,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750470?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750470/_history/19"",""version"":""19"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750470-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mrs."",""suffix"":null,""periodStart"":""2019-12-02T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""practitioners"":null,""contactDetails"":[{""id"":""CI-EM-29851005-0"",""index"":0,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29851094-1"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil12@noemail.com"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":""2019-12-02T05:30:00.000+05:30"",""rank"":2},{""id"":""CI-EM-29851322-2"",""index"":2,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil12@noemail.com"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":""2019-12-02T00:00:00.000+05:30"",""rank"":2},{""id"":""CI-EM-29851324-3"",""index"":3,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil12@noemail.com"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":""2019-12-02T00:00:00.000+05:30"",""rank"":2},{""id"":""CI-EM-29851326-4"",""index"":4,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil12@noemail.com"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":""2019-12-02T00:00:00.000+05:30"",""rank"":2},{""id"":""CI-EM-29851320-5"",""index"":5,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil12@noemail.com"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":""2019-12-02T00:00:00.000+05:30"",""rank"":2},{""id"":""CI-EM-29851328-6"",""index"":6,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil1212@noemail.com"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":""2019-12-02T00:00:00.000+05:30"",""rank"":2},{""id"":""CI-EM-29851092-7"",""index"":7,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":null,""rank"":99},{""id"":""CI-EM-29851090-8"",""index"":8,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":""2019-12-02T05:30:00.000+05:30"",""rank"":99},{""id"":""CI-EM-29851088-9"",""index"":9,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":99}],""addresses"":[{""id"":""CI-24353406-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""Indias"",""periodStart"":""2019-12-01T05:30:00.000+05:30"",""periodEnd"":""2019-12-02T05:30:00.000+05:30""},{""id"":""CI-24353404-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24353504-2"",""index"":2,""type"":""HOME"",""addressLine1"":null,""addressLine2"":null,""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":""422010"",""country"":""India"",""periodStart"":""2019-12-01T06:30:00.000+05:30"",""periodEnd"":""2019-12-02T06:30:00.000+05:30""},{""id"":""CI-24353687-3"",""index"":3,""type"":""HOME"",""addressLine1"":null,""addressLine2"":null,""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":""422010"",""country"":""India"",""periodStart"":""2019-12-01T06:30:00.000+05:30"",""periodEnd"":""2019-12-02T06:30:00.000+05:30""},{""id"":""CI-24353653-4"",""index"":4,""type"":""HOME"",""addressLine1"":null,""addressLine2"":null,""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":""422010"",""country"":""India"",""periodStart"":""2019-12-01T06:30:00.000+05:30"",""periodEnd"":""2019-12-02T06:30:00.000+05:30""}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-18 15:11:05
+72,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73154055?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73154055/_history/73154055"",""version"":""73154055"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""Moderate"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":""2018-01-01"",""resolveDate"":""2020-01-01"",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":null}}}",200,2021-03-25 12:30:23
+21,CERNER,POST,"",http://localhost:8080/api/v1/organization?ehr=CERNER,"{""status"":false,""message"":""Error while creating ORGANIZATION. Details [ HTTP 409 Conflict: Requested organization name [Jupiter212111111] is already used by organization with id=3272641 ]"",""data"":null}",500,2021-03-18 15:12:59
+19,CERNER,POST,"",http://localhost:8080/api/v1/organization?ehr=CERNER,"{""status"":false,""message"":""Error while creating ORGANIZATION. Details [ HTTP 409 Conflict: Requested organization name [Jupiter212111111] is already used by organization with id=3272641 ]"",""data"":null}",500,2021-03-18 15:11:09
+20,CERNER,POST,"",http://localhost:8080/api/v1/organization?ehr=CERNER,"{""status"":false,""message"":""Error while creating ORGANIZATION. Details [ HTTP 409 Conflict: Requested organization name [Jupiter212111111] is already used by organization with id=3272641 ]"",""data"":null}",500,2021-03-18 15:12:11
+22,CERNER,POST,"{
+    ""name"": ""Jupiter212111111"",
+    ""active"": true,
+    ""orgTypes"": [
+        ""govt"" 
+    ],
+    ""identifiers"": [
+        {
+            ""value"": ""FHIR-NPI-10191"",
+            ""code"": ""NPI""
+        }
+    ]
+}",http://localhost:8080/api/v1/organization?ehr=CERNER,"{""status"":false,""message"":""Error while creating ORGANIZATION. Details [ HTTP 409 Conflict: Requested organization name [Jupiter212111111] is already used by organization with id=3272641 ]"",""data"":null}",500,2021-03-18 15:37:50
+23,,GET,"{
+    ""name"": ""Jupiter212111111"",
+    ""active"": true,
+    ""orgTypes"": [
+        ""govt"" 
+    ],
+    ""identifiers"": [
+        {
+            ""value"": ""FHIR-NPI-10191"",
+            ""code"": ""NPI""
+        }
+    ]
+}",http://localhost:8080/api/v1/test,Hello,200,2021-03-18 15:38:38
+24,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating PATIENT. Details [ HTTP 400 Bad Request: Patient.extension[0].extension: must be of type Code ]"",""data"":null}",500,2021-03-18 19:15:00
+25,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":true,""message"":""PATIENT created successfully!"",""data"":""12750815""}",201,2021-03-18 19:19:32
+26,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating patient. Details [ Attempt to set unknown property valueCode ]"",""data"":null}",500,2021-03-18 19:23:42
+27,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":true,""message"":""PATIENT created successfully!"",""data"":""12750820""}",201,2021-03-18 19:44:16
+28,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating PATIENT. Details [ HTTP 400 Bad Request: Patient.extension[0].extension: must be of type Code ]"",""data"":null}",500,2021-03-18 19:49:05
+29,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""hispanic or latino"",
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating patient. Details [ Invalid birth sex ]"",""data"":null}",500,2021-03-19 12:59:30
+34,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/0"",""version"":""0"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":null,""races"":null,""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 15:26:57
+30,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""hispanic or latino"",
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating PATIENT. Details [ HTTP 400 Bad Request: Patient.extension[0].extension: must be of type Code ]"",""data"":null}",500,2021-03-19 13:01:42
+31,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""hispanic or latino"",
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":true,""message"":""PATIENT created successfully!"",""data"":""12750888""}",201,2021-03-19 13:03:20
+32,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""hispanic or latino"",
+    ""races"": [
+        ""White"",
+        ""Asian"",
+        ""American Indian or Alaska Native""
+    ],
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating patient. Details [ Invalid ethnicity ]"",""data"":null}",500,2021-03-19 14:46:28
+33,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""Hispanic or Latino"",
+    ""races"": [
+        ""White"",
+        ""Asian"",
+        ""American Indian or Alaska Native""
+    ],
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":true,""message"":""PATIENT created successfully!"",""data"":""12750895""}",201,2021-03-19 14:47:12
+67,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""Moderate"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":"""",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":null}}}",200,2021-03-24 19:19:45
+35,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/0"",""version"":""0"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":null,""races"":null,""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 15:38:53
+36,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/0"",""version"":""0"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":null,""races"":null,""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 15:41:27
+37,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/0"",""version"":""0"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":null,""races"":null,""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 15:43:52
+38,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/0"",""version"":""0"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":null,""races"":null,""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 15:45:57
+39,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/0"",""version"":""0"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":null,""races"":null,""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 15:47:47
+40,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":false,""message"":""Error while retrieving PATIENT. Details [ org.hl7.fhir.r4.model.StringType cannot be cast to org.hl7.fhir.r4.model.Coding ]"",""data"":null}",500,2021-03-19 15:48:50
+68,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""Moderate"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":""2021-03-24"",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":null}}}",200,2021-03-24 19:21:45
+41,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/0"",""version"":""0"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":null,""races"":null,""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 16:02:53
+42,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/0"",""version"":""0"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":""Hispanic or Latino"",""races"":[""Asian"",""White"",""American Indian or Alaska Native""],""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 16:11:18
+43,CERNER,PUT,"{
+    ""id"": ""12750895"",
+    ""version"": ""11"",
+    ""ethnicity"": ""Hispanic or Latino"",
+    ""races"": [
+        ""White"",
+        ""Asian"",
+        ""American Indian or Alaska Native""
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while updating for PATIENT. Details [ HTTP 400 Bad Request: body: cannot be parsed as json ]"",""data"":null}",500,2021-03-19 17:19:01
+44,CERNER,PUT,"{
+    ""id"": ""12750895"",
+    ""version"": ""11"",
+    ""ethnicity"": ""Hispanic or Latino"",
+    ""races"": [
+        ""White"",
+        ""Asian"",
+        ""American Indian or Alaska Native""
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while updating for PATIENT. Details [ HTTP 412 Precondition Failed ]"",""data"":null}",500,2021-03-19 17:24:33
+45,CERNER,PUT,"{
+    ""id"": ""12750895"",
+    ""version"": ""0"",
+    ""ethnicity"": ""Non Hispanic or Latino"",
+    ""races"": [
+        ""American Indian or Alaska Native""
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":true,""message"":""PATIENT updated successfully!"",""data"":{""version"":""1""}}",200,2021-03-19 17:26:40
+46,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/1"",""version"":""1"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":""Not Hispanic or Latino"",""races"":[""American Indian or Alaska Native""],""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-19 17:26:51
+47,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""Hispanic or Latino"",
+    ""races"": [
+        ""White"",
+        ""Asian"",
+        ""American Indian or Alaska Native""
+    ],
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":true,""message"":""PATIENT created successfully!"",""data"":""12750919""}",201,2021-03-19 19:49:40
+69,CERNER,POST,"{
+    ""status"": ""resolved"",
+    ""verificationStatus"": ""confirmed"",
+    ""category"": ""problem-list-item"",
+    ""severity"": ""Moderate"",
+    ""code"": ""1833005"",
+    ""patientId"": ""12750895"",
+    ""encounterId"": """",
+    ""startDate"": ""2018-01-01"",
+    ""resolveDate"": ""2020-01-01"",
+    ""noteDTO"": {
+        ""note"": ""Notes 1 for patient""
+    }
+}",http://localhost:8080/api/v1/patient/condition?ehr=CERNER,"{""status"":true,""message"":""CONDITION created successfully!"",""data"":""p73154055""}",201,2021-03-24 19:25:32
+70,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73154055?ehr=CERNER,"{""status"":false,""message"":""Error while retrieving CONDITION. Details [ Type mismatch: the type StringType was expected, but org.hl7.fhir.r4.model.DateTimeType was encountered ]"",""data"":null}",500,2021-03-24 19:26:22
+48,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""Hispanic or Latino"",
+    ""races"": [
+        ""White"",
+        ""Asian"",
+        ""American Indian or Alaska Native""
+    ],
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating PATIENT. Details [ HTTP 400 Bad Request: Patient.extension[0].value: must be a valid code ]"",""data"":null}",500,2021-03-19 19:55:49
+49,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""Hispanic or Latino"",
+    ""races"": [
+        ""White"",
+        ""Asian"",
+        ""American Indian or Alaska Native""
+    ],
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating patient. Details [ Attempt to set unknown property valueCoding ]"",""data"":null}",500,2021-03-19 20:23:06
+50,CERNER,POST,"{
+    ""addresses"": [
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""home"",
+            ""periodStart"": ""2019-12-01T01:00:00.000Z"",
+            ""periodEnd"": ""2019-12-01T02:00:00.000Z""
+        },
+        {
+            ""addressLine1"": ""08, Lotus Rudra Park"",
+            ""addressLine2"": ""Mahajan Nagar"",
+            ""city"": ""Nashik"",
+            ""country"": ""India"",
+            ""district"": ""Nashik"",
+            ""postalCode"": ""422010"",
+            ""state"": ""Maharashtra"",
+            ""type"": ""WORK""
+        }
+    ],
+    ""birthDate"": ""1985-12-01"",
+    ""contactDetails"": [
+        {
+            ""media"": ""email"",
+            ""type"": ""home"",
+            ""value"": ""suraj.patil@noemail.com""
+        },
+        {
+            ""media"": ""phone"",
+            ""type"": ""home"",
+            ""value"": ""9823758696""
+        }
+    ],
+    ""gender"": ""Male"",
+    ""languageCode"": ""en"",
+    ""maritalStatusCode"": ""D"",
+    ""birthSex"": ""M"",
+    ""ethnicity"": ""Hispanic or Latino"",
+    ""races"": [
+        ""White"",
+        ""Asian"",
+        ""American Indian or Alaska Native""
+    ],
+    ""name"": {
+        ""family"": ""Varma"",
+        ""givenName1"": ""Jai"",
+        ""periodStart"": ""2019-12-01T00:00:00.000Z"",
+        ""prefix"": ""Mr. ""
+    },
+    ""organizationId"": ""675844"",
+    ""practitioners"": [
+        {
+            ""practitionerId"": ""12750357""
+        }
+    ]
+}",http://localhost:8080/api/v1/patient?ehr=CERNER,"{""status"":false,""message"":""Error while creating patient. Details [ Attempt to set unknown property valueCoding ]"",""data"":null}",500,2021-03-19 20:27:35
+51,CERNER,POST,"{
+    ""status"": ""resolved"",
+    ""verificationStatus"": ""confirmed"",
+    ""category"": ""problem-list-item"",
+    ""severity"": ""6736007"",
+    ""code"": ""1833005"",
+    ""patientId"": ""12750895"",
+    ""encounterId"": """",
+    ""startDate"": ""2018-01-01"",
+    ""resolveDate"": ""2020-01-01"",
+    ""noteDTO"": {
+        ""note"": ""Notes 1 for patient""
+    }
+}",http://localhost:8080/api/v1/patient/condition?ehr=CERNER,"{""status"":false,""message"":""Error while check resource PATIENT. Details [ Invalid verification status ]"",""data"":null}",500,2021-03-24 16:39:13
+52,CERNER,POST,"{
+    ""status"": ""resolved"",
+    ""verificationStatus"": ""confirmed"",
+    ""category"": ""problem-list-item"",
+    ""severity"": ""Moderate"",
+    ""code"": ""1833005"",
+    ""patientId"": ""12750895"",
+    ""encounterId"": """",
+    ""startDate"": ""2018-01-01"",
+    ""resolveDate"": ""2020-01-01"",
+    ""noteDTO"": {
+        ""note"": ""Notes 1 for patient""
+    }
+}",http://localhost:8080/api/v1/patient/condition?ehr=CERNER,"{""status"":false,""message"":""Error while creating CONDITION. Details [ HTTP 400 Bad Request: Condition.verificationStatus: at least one Coding must be from the required ValueSet ]"",""data"":null}",500,2021-03-24 16:42:01
+53,CERNER,POST,"{
+    ""status"": ""resolved"",
+    ""verificationStatus"": ""confirmed"",
+    ""category"": ""problem-list-item"",
+    ""severity"": ""Moderate"",
+    ""code"": ""1833005"",
+    ""patientId"": ""12750895"",
+    ""encounterId"": """",
+    ""startDate"": ""2018-01-01"",
+    ""resolveDate"": ""2020-01-01"",
+    ""noteDTO"": {
+        ""note"": ""Notes 1 for patient""
+    }
+}",http://localhost:8080/api/v1/patient/condition?ehr=CERNER,"{""status"":true,""message"":""CONDITION created successfully!"",""data"":""p73153991""}",201,2021-03-24 16:43:11
+71,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73154055?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73154055/_history/73154055"",""version"":""73154055"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""Moderate"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":""2018-01-01"",""resolveDate"":""2020-01-01"",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":null}}}",200,2021-03-24 19:29:07
+54,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/1"",""version"":""1"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":""Not Hispanic or Latino"",""races"":[""American Indian or Alaska Native""],""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-24 17:05:23
+55,,POST,"{
+    ""userName"" : ""e7402f2e-d234-4afc-963b-c3d468c63cd6"",
+    ""password"" : ""UAajLOn1qOknbE7gb-99UC7kwY3cg0_T"",
+    ""ehr"" : ""CERNER""
+}   ",http://localhost:8080/api/v1/ehr-credentials,"{""status"":true,""message"":""EHR credentials saved successfully for ehr CERNER"",""data"":{""id"":""d75c6acc-1fc8-43a3-9a01-972c7fe133d5"",""userName"":""cvjW0PIjIZsdt/yD8wokuAjXjLjgpTrdDnkF/KrDki9mgm830WVFhOrMk+hJFsOe"",""password"":""Eh7h/+q9WFo9O9J//dMNjaxfSj7ijzTxa6wnfvcGMhLXGxohdZMU8PlUTxvuz/5n"",""ehr"":""CERNER""}}",200,2021-03-24 17:24:10
+56,CERNER,GET,"",http://localhost:8080/api/v1/patient/12750895?ehr=CERNER,"{""status"":true,""message"":""PATIENT retrieved successfully!"",""data"":{""id"":""Patient/12750895/_history/1"",""version"":""1"",""organizationId"":null,""active"":true,""name"":{""id"":""CI-12750895-0"",""family"":""Varma"",""givenName1"":""Jai"",""givenName2"":null,""prefix"":""Mr."",""suffix"":null,""periodStart"":""2019-12-01T05:30:00.000+05:30""},""gender"":null,""birthDate"":""1985-12-01"",""birthSex"":null,""ethnicity"":""Not Hispanic or Latino"",""races"":[""American Indian or Alaska Native""],""practitioners"":null,""contactDetails"":[{""id"":""CI-PH-29852611-0"",""index"":0,""media"":""PHONE"",""type"":""HOME"",""value"":""9823758696"",""periodStart"":null,""periodEnd"":null,""rank"":1},{""id"":""CI-EM-29852613-0"",""index"":1,""media"":""EMAIL"",""type"":""HOME"",""value"":""suraj.patil@noemail.com"",""periodStart"":null,""periodEnd"":null,""rank"":1}],""addresses"":[{""id"":""CI-24354764-0"",""index"":0,""type"":""WORK"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null},{""id"":""CI-24354762-1"",""index"":1,""type"":""HOME"",""addressLine1"":""08, Lotus Rudra Park"",""addressLine2"":""Mahajan Nagar"",""city"":""Nashik"",""district"":""Nashik"",""state"":""Maharashtra"",""postalCode"":null,""country"":""India"",""periodStart"":null,""periodEnd"":null}],""maritalStatusCode"":""D"",""languageCode"":""en""}}",200,2021-03-24 17:24:35
+57,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":false,""message"":""Error while retrieving PATIENT. Details [ HTTP 404 Not Found ]"",""data"":null}",500,2021-03-24 18:02:03
+58,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":false,""message"":""Error while retrieving CONDITION. Details [ Type mismatch: the type StringType was expected, but org.hl7.fhir.r4.model.DateTimeType was encountered ]"",""data"":null}",500,2021-03-24 18:02:57
+59,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":false,""message"":""Error while retrieving CONDITION. Details [ Type mismatch: the type StringType was expected, but org.hl7.fhir.r4.model.DateTimeType was encountered ]"",""data"":null}",500,2021-03-24 18:06:20
+60,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""3294"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":""DateTimeType[2021-03-24]"",""noteDTO"":null}}",200,2021-03-24 18:10:32
+61,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""3294"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":""DateTimeType[2021-03-24]"",""noteDTO"":null}}",200,2021-03-24 18:35:17
+62,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""3294"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":""DateTimeType[2021-03-24]"",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":""1""}}}",200,2021-03-24 18:36:11
+63,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":"""",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":""DateTimeType[2021-03-24]"",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":null}}}",200,2021-03-24 18:52:28
+64,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":"""",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":""DateTimeType[2021-03-24]"",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":null}}}",200,2021-03-24 18:54:26
+65,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""Moderate"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":""DateTimeType[2021-03-24]"",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":null}}}",200,2021-03-24 19:00:00
+66,CERNER,GET,"",http://localhost:8080/api/v1/patient/condition/p73153991?ehr=CERNER,"{""status"":true,""message"":""CONDITION retrieved successfully!"",""data"":{""id"":""Condition/p73153991/_history/73153991"",""version"":""73153991"",""status"":""resolved"",""verificationStatus"":""confirmed"",""category"":""problem-list-item"",""severity"":""Moderate"",""code"":""1833005"",""patientId"":""12750895"",""encounterId"":null,""startDate"":null,""resolveDate"":""DateTimeType[2021-03-24]"",""noteDTO"":{""note"":""Notes 1 for patient"",""practitionerId"":null}}}",200,2021-03-24 19:15:24
+73,CERNER,POST,"{
+    ""status"": ""amended"",
+    ""category"": ""laboratory"",
+    ""codes"": [
+        ""8302-2"",
+        ""3137-7""
+    ],
+    ""patientId"": ""12750895"",
+    ""encounterId"": """",
+    ""effectiveDate"": ""2020-07-07T20:37:00.000Z"",
+    ""issuedDate"": ""2020-07-06T21:02:47.000Z"",
+    ""practitionerId"": ""12750278"",
+    ""practitionerRoles"": [
+        ""PPRF"",
+        ""OP"",
+        ""LA""
+    ],
+    ""valueDetails"": {
+        ""valueText"": """",
+        ""valueDateTime"": """",
+        ""quantity"": {
+            ""value"": 37.2,
+            ""code"": ""Cel"",
+            ""unit"": ""degC""
+        }
+    },
+    ""interpretation"": ""N"",
+    ""note"": ""Test 1"",
+    ""lowRange"": {
+        ""value"": 35.8,
+        ""code"": ""degC"",
+        ""unit"": ""Cel""
+    },
+    ""highRange"": {
+        ""value"": 37.3,
+        ""code"": ""degC"",
+        ""unit"": ""Cel""
+    },
+    ""rangeText"": """"
+}",http://localhost:8080/api/v1/patient/observation?ehr=CERNER,"{""status"":false,""message"":""Error while creating OBSERVATION. Details [ HTTP 500 Internal Server Error ]"",""data"":null}",500,2021-03-25 19:09:40
